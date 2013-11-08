@@ -9,7 +9,7 @@ method.
 
 See the screenshot below for iOS 6 and iOS 7.
 
-<img src="https://raw.github.com/brennanMKE/FlatButtons/master/FlatButtons.png" width="600" />
+<img src="https://raw.github.com/brennanMKE/FlatButtons/master/FlatButtons.png" width="850" />
 
 ------
 
