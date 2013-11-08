@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2634A32C182C24AE00CE203F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2634A32B182C24AE00CE203F /* Foundation.framework */; };
+		2634A32E182C24AE00CE203F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2634A32D182C24AE00CE203F /* CoreGraphics.framework */; };
+		2634A330182C24AE00CE203F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2634A32F182C24AE00CE203F /* UIKit.framework */; };
+		2634A336182C24AE00CE203F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2634A334182C24AE00CE203F /* InfoPlist.strings */; };
+		2634A338182C24AE00CE203F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A337182C24AE00CE203F /* main.m */; };
+		2634A33C182C24AE00CE203F /* SSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A33B182C24AE00CE203F /* SSTAppDelegate.m */; };
+		2634A33F182C24AE00CE203F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2634A33D182C24AE00CE203F /* Main.storyboard */; };
+		2634A344182C24AE00CE203F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2634A343182C24AE00CE203F /* Images.xcassets */; };
+		2634A34B182C24AE00CE203F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2634A34A182C24AE00CE203F /* XCTest.framework */; };
+		2634A34C182C24AE00CE203F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2634A32B182C24AE00CE203F /* Foundation.framework */; };
+		2634A34D182C24AE00CE203F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2634A32F182C24AE00CE203F /* UIKit.framework */; };
+		2634A355182C24AE00CE203F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2634A353182C24AE00CE203F /* InfoPlist.strings */; };
+		2634A357182C24AE00CE203F /* FlatButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A356182C24AE00CE203F /* FlatButtonsTests.m */; };
+		2634A36F182C258700CE203F /* SSTFilledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A36A182C258700CE203F /* SSTFilledButton.m */; };
+		2634A370182C258700CE203F /* SSTOutlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A36C182C258700CE203F /* SSTOutlinedButton.m */; };
+		2634A371182C258700CE203F /* SSTHybridButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A36E182C258700CE203F /* SSTHybridButton.m */; };
+		2634A374182C259A00CE203F /* SSTBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A373182C259A00CE203F /* SSTBaseButton.m */; };
+		2634A377182C291600CE203F /* SSTFlatButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A376182C291600CE203F /* SSTFlatButtonViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2634A34E182C24AE00CE203F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2634A320182C24AE00CE203F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2634A327182C24AE00CE203F;
+			remoteInfo = FlatButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2634A328182C24AE00CE203F /* FlatButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlatButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2634A32B182C24AE00CE203F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2634A32D182C24AE00CE203F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2634A32F182C24AE00CE203F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2634A333182C24AE00CE203F /* FlatButtons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlatButtons-Info.plist"; sourceTree = "<group>"; };
+		2634A335182C24AE00CE203F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2634A337182C24AE00CE203F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2634A339182C24AE00CE203F /* FlatButtons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlatButtons-Prefix.pch"; sourceTree = "<group>"; };
+		2634A33A182C24AE00CE203F /* SSTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSTAppDelegate.h; sourceTree = "<group>"; };
+		2634A33B182C24AE00CE203F /* SSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSTAppDelegate.m; sourceTree = "<group>"; };
+		2634A33E182C24AE00CE203F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2634A343182C24AE00CE203F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2634A349182C24AE00CE203F /* FlatButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlatButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2634A34A182C24AE00CE203F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2634A352182C24AE00CE203F /* FlatButtonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlatButtonsTests-Info.plist"; sourceTree = "<group>"; };
+		2634A354182C24AE00CE203F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2634A356182C24AE00CE203F /* FlatButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlatButtonsTests.m; sourceTree = "<group>"; };
+		2634A369182C258700CE203F /* SSTFilledButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTFilledButton.h; sourceTree = "<group>"; };
+		2634A36A182C258700CE203F /* SSTFilledButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTFilledButton.m; sourceTree = "<group>"; };
+		2634A36B182C258700CE203F /* SSTOutlinedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOutlinedButton.h; sourceTree = "<group>"; };
+		2634A36C182C258700CE203F /* SSTOutlinedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTOutlinedButton.m; sourceTree = "<group>"; };
+		2634A36D182C258700CE203F /* SSTHybridButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTHybridButton.h; sourceTree = "<group>"; };
+		2634A36E182C258700CE203F /* SSTHybridButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTHybridButton.m; sourceTree = "<group>"; };
+		2634A372182C259A00CE203F /* SSTBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTBaseButton.h; sourceTree = "<group>"; };
+		2634A373182C259A00CE203F /* SSTBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTBaseButton.m; sourceTree = "<group>"; };
+		2634A375182C291600CE203F /* SSTFlatButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTFlatButtonViewController.h; sourceTree = "<group>"; };
+		2634A376182C291600CE203F /* SSTFlatButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTFlatButtonViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2634A325182C24AE00CE203F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2634A32E182C24AE00CE203F /* CoreGraphics.framework in Frameworks */,
+				2634A330182C24AE00CE203F /* UIKit.framework in Frameworks */,
+				2634A32C182C24AE00CE203F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2634A346182C24AE00CE203F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2634A34B182C24AE00CE203F /* XCTest.framework in Frameworks */,
+				2634A34D182C24AE00CE203F /* UIKit.framework in Frameworks */,
+				2634A34C182C24AE00CE203F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2634A31F182C24AE00CE203F = {
+			isa = PBXGroup;
+			children = (
+				2634A331182C24AE00CE203F /* FlatButtons */,
+				2634A350182C24AE00CE203F /* FlatButtonsTests */,
+				2634A32A182C24AE00CE203F /* Frameworks */,
+				2634A329182C24AE00CE203F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2634A329182C24AE00CE203F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2634A328182C24AE00CE203F /* FlatButtons.app */,
+				2634A349182C24AE00CE203F /* FlatButtonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2634A32A182C24AE00CE203F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2634A32B182C24AE00CE203F /* Foundation.framework */,
+				2634A32D182C24AE00CE203F /* CoreGraphics.framework */,
+				2634A32F182C24AE00CE203F /* UIKit.framework */,
+				2634A34A182C24AE00CE203F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2634A331182C24AE00CE203F /* FlatButtons */ = {
+			isa = PBXGroup;
+			children = (
+				2634A332182C24AE00CE203F /* Supporting Files */,
+				2634A343182C24AE00CE203F /* Images.xcassets */,
+				2634A33A182C24AE00CE203F /* SSTAppDelegate.h */,
+				2634A33B182C24AE00CE203F /* SSTAppDelegate.m */,
+				2634A33D182C24AE00CE203F /* Main.storyboard */,
+				2634A375182C291600CE203F /* SSTFlatButtonViewController.h */,
+				2634A376182C291600CE203F /* SSTFlatButtonViewController.m */,
+				2634A372182C259A00CE203F /* SSTBaseButton.h */,
+				2634A373182C259A00CE203F /* SSTBaseButton.m */,
+				2634A369182C258700CE203F /* SSTFilledButton.h */,
+				2634A36A182C258700CE203F /* SSTFilledButton.m */,
+				2634A36B182C258700CE203F /* SSTOutlinedButton.h */,
+				2634A36C182C258700CE203F /* SSTOutlinedButton.m */,
+				2634A36D182C258700CE203F /* SSTHybridButton.h */,
+				2634A36E182C258700CE203F /* SSTHybridButton.m */,
+			);
+			path = FlatButtons;
+			sourceTree = "<group>";
+		};
+		2634A332182C24AE00CE203F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2634A333182C24AE00CE203F /* FlatButtons-Info.plist */,
+				2634A334182C24AE00CE203F /* InfoPlist.strings */,
+				2634A337182C24AE00CE203F /* main.m */,
+				2634A339182C24AE00CE203F /* FlatButtons-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2634A350182C24AE00CE203F /* FlatButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2634A356182C24AE00CE203F /* FlatButtonsTests.m */,
+				2634A351182C24AE00CE203F /* Supporting Files */,
+			);
+			path = FlatButtonsTests;
+			sourceTree = "<group>";
+		};
+		2634A351182C24AE00CE203F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2634A352182C24AE00CE203F /* FlatButtonsTests-Info.plist */,
+				2634A353182C24AE00CE203F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2634A327182C24AE00CE203F /* FlatButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2634A35A182C24AE00CE203F /* Build configuration list for PBXNativeTarget "FlatButtons" */;
+			buildPhases = (
+				2634A324182C24AE00CE203F /* Sources */,
+				2634A325182C24AE00CE203F /* Frameworks */,
+				2634A326182C24AE00CE203F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlatButtons;
+			productName = FlatButtons;
+			productReference = 2634A328182C24AE00CE203F /* FlatButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2634A348182C24AE00CE203F /* FlatButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2634A35D182C24AE00CE203F /* Build configuration list for PBXNativeTarget "FlatButtonsTests" */;
+			buildPhases = (
+				2634A345182C24AE00CE203F /* Sources */,
+				2634A346182C24AE00CE203F /* Frameworks */,
+				2634A347182C24AE00CE203F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2634A34F182C24AE00CE203F /* PBXTargetDependency */,
+			);
+			name = FlatButtonsTests;
+			productName = FlatButtonsTests;
+			productReference = 2634A349182C24AE00CE203F /* FlatButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2634A320182C24AE00CE203F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SST;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SmallSharpTools LLC";
+				TargetAttributes = {
+					2634A327182C24AE00CE203F = {
+						DevelopmentTeam = M3FCT79SM9;
+					};
+					2634A348182C24AE00CE203F = {
+						TestTargetID = 2634A327182C24AE00CE203F;
+					};
+				};
+			};
+			buildConfigurationList = 2634A323182C24AE00CE203F /* Build configuration list for PBXProject "FlatButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2634A31F182C24AE00CE203F;
+			productRefGroup = 2634A329182C24AE00CE203F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2634A327182C24AE00CE203F /* FlatButtons */,
+				2634A348182C24AE00CE203F /* FlatButtonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2634A326182C24AE00CE203F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2634A344182C24AE00CE203F /* Images.xcassets in Resources */,
+				2634A336182C24AE00CE203F /* InfoPlist.strings in Resources */,
+				2634A33F182C24AE00CE203F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2634A347182C24AE00CE203F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2634A355182C24AE00CE203F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2634A324182C24AE00CE203F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2634A36F182C258700CE203F /* SSTFilledButton.m in Sources */,
+				2634A377182C291600CE203F /* SSTFlatButtonViewController.m in Sources */,
+				2634A370182C258700CE203F /* SSTOutlinedButton.m in Sources */,
+				2634A338182C24AE00CE203F /* main.m in Sources */,
+				2634A374182C259A00CE203F /* SSTBaseButton.m in Sources */,
+				2634A33C182C24AE00CE203F /* SSTAppDelegate.m in Sources */,
+				2634A371182C258700CE203F /* SSTHybridButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2634A345182C24AE00CE203F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2634A357182C24AE00CE203F /* FlatButtonsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2634A34F182C24AE00CE203F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2634A327182C24AE00CE203F /* FlatButtons */;
+			targetProxy = 2634A34E182C24AE00CE203F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2634A334182C24AE00CE203F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2634A335182C24AE00CE203F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2634A33D182C24AE00CE203F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2634A33E182C24AE00CE203F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2634A353182C24AE00CE203F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2634A354182C24AE00CE203F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2634A358182C24AE00CE203F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2634A359182C24AE00CE203F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2634A35B182C24AE00CE203F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlatButtons/FlatButtons-Prefix.pch";
+				INFOPLIST_FILE = "FlatButtons/FlatButtons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2634A35C182C24AE00CE203F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlatButtons/FlatButtons-Prefix.pch";
+				INFOPLIST_FILE = "FlatButtons/FlatButtons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2634A35E182C24AE00CE203F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlatButtons.app/FlatButtons";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlatButtons/FlatButtons-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlatButtonsTests/FlatButtonsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2634A35F182C24AE00CE203F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlatButtons.app/FlatButtons";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlatButtons/FlatButtons-Prefix.pch";
+				INFOPLIST_FILE = "FlatButtonsTests/FlatButtonsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2634A323182C24AE00CE203F /* Build configuration list for PBXProject "FlatButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2634A358182C24AE00CE203F /* Debug */,
+				2634A359182C24AE00CE203F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2634A35A182C24AE00CE203F /* Build configuration list for PBXNativeTarget "FlatButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2634A35B182C24AE00CE203F /* Debug */,
+				2634A35C182C24AE00CE203F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2634A35D182C24AE00CE203F /* Build configuration list for PBXNativeTarget "FlatButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2634A35E182C24AE00CE203F /* Debug */,
+				2634A35F182C24AE00CE203F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2634A320182C24AE00CE203F /* Project object */;
+}
