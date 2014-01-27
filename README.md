@@ -1,17 +1,27 @@
 Flat Buttons
 ===========
 
-Flat Buttons for iOS 7
-
 The button classes can be used with a Storyboard by setting the color of the text and the background 
 to color the styles provided by these button classes which inherit `UIButton` and override the `drawrect` 
 method.
 
-See the screenshot below for iOS 6 and iOS 7.
+## Usage
+
+These buttons classes can be copied into your project or referenced as a submodule with 
+just the button classes being referenced in your project. To use them set the Custom Class
+in your Storyboard or Xib to one of these button classes and set the text and background
+color and experiment with the options until you find a design which works for you. The
+screenshot below shows how these buttons appear in iOS 6 and 7.
+
+## Screenshot
 
 <img src="https://raw.github.com/brennanMKE/FlatButtons/master/FlatButtons.png" width="850" />
 
-------
+## License
+
+Flat Buttons is available under the Apache 2.0 license. See the LICENSE file for more info.
+
+## Contact
 
 Brennan Stehling  
 [SmallSharpTools](http://www.smallsharptools.com/)  
