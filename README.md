@@ -7,11 +7,13 @@ method.
 
 ## Usage
 
-These buttons classes can be copied into your project or referenced as a submodule with 
+These button classes can be copied into your project or referenced as a submodule with 
 just the button classes being referenced in your project. To use them set the Custom Class
 in your Storyboard or Xib to one of these button classes and set the text and background
 color and experiment with the options until you find a design which works for you. The
 screenshot below shows how these buttons appear in iOS 6 and 7.
+
+The files to use are in the `FlatButtons` folder with a sample project in the `Example` folder.
 
 ## Screenshot
 

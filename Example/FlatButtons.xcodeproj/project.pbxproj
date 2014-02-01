@@ -20,11 +20,11 @@
 		2634A34D182C24AE00CE203F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2634A32F182C24AE00CE203F /* UIKit.framework */; };
 		2634A355182C24AE00CE203F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2634A353182C24AE00CE203F /* InfoPlist.strings */; };
 		2634A357182C24AE00CE203F /* FlatButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A356182C24AE00CE203F /* FlatButtonsTests.m */; };
-		2634A36F182C258700CE203F /* SSTFilledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A36A182C258700CE203F /* SSTFilledButton.m */; };
-		2634A370182C258700CE203F /* SSTOutlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A36C182C258700CE203F /* SSTOutlinedButton.m */; };
-		2634A371182C258700CE203F /* SSTHybridButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A36E182C258700CE203F /* SSTHybridButton.m */; };
-		2634A374182C259A00CE203F /* SSTBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A373182C259A00CE203F /* SSTBaseButton.m */; };
 		2634A377182C291600CE203F /* SSTFlatButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634A376182C291600CE203F /* SSTFlatButtonViewController.m */; };
+		2650E001189CC4330085AE08 /* SSTBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650DFFA189CC4330085AE08 /* SSTBaseButton.m */; };
+		2650E002189CC4330085AE08 /* SSTFilledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650DFFC189CC4330085AE08 /* SSTFilledButton.m */; };
+		2650E003189CC4330085AE08 /* SSTHybridButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650DFFE189CC4330085AE08 /* SSTHybridButton.m */; };
+		2650E004189CC4330085AE08 /* SSTOutlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650E000189CC4330085AE08 /* SSTOutlinedButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,16 +55,16 @@
 		2634A352182C24AE00CE203F /* FlatButtonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlatButtonsTests-Info.plist"; sourceTree = "<group>"; };
 		2634A354182C24AE00CE203F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2634A356182C24AE00CE203F /* FlatButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlatButtonsTests.m; sourceTree = "<group>"; };
-		2634A369182C258700CE203F /* SSTFilledButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTFilledButton.h; sourceTree = "<group>"; };
-		2634A36A182C258700CE203F /* SSTFilledButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTFilledButton.m; sourceTree = "<group>"; };
-		2634A36B182C258700CE203F /* SSTOutlinedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOutlinedButton.h; sourceTree = "<group>"; };
-		2634A36C182C258700CE203F /* SSTOutlinedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTOutlinedButton.m; sourceTree = "<group>"; };
-		2634A36D182C258700CE203F /* SSTHybridButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTHybridButton.h; sourceTree = "<group>"; };
-		2634A36E182C258700CE203F /* SSTHybridButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTHybridButton.m; sourceTree = "<group>"; };
-		2634A372182C259A00CE203F /* SSTBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTBaseButton.h; sourceTree = "<group>"; };
-		2634A373182C259A00CE203F /* SSTBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTBaseButton.m; sourceTree = "<group>"; };
 		2634A375182C291600CE203F /* SSTFlatButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTFlatButtonViewController.h; sourceTree = "<group>"; };
 		2634A376182C291600CE203F /* SSTFlatButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTFlatButtonViewController.m; sourceTree = "<group>"; };
+		2650DFF9189CC4330085AE08 /* SSTBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTBaseButton.h; path = ../../FlatButtons/SSTBaseButton.h; sourceTree = "<group>"; };
+		2650DFFA189CC4330085AE08 /* SSTBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTBaseButton.m; path = ../../FlatButtons/SSTBaseButton.m; sourceTree = "<group>"; };
+		2650DFFB189CC4330085AE08 /* SSTFilledButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTFilledButton.h; path = ../../FlatButtons/SSTFilledButton.h; sourceTree = "<group>"; };
+		2650DFFC189CC4330085AE08 /* SSTFilledButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTFilledButton.m; path = ../../FlatButtons/SSTFilledButton.m; sourceTree = "<group>"; };
+		2650DFFD189CC4330085AE08 /* SSTHybridButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTHybridButton.h; path = ../../FlatButtons/SSTHybridButton.h; sourceTree = "<group>"; };
+		2650DFFE189CC4330085AE08 /* SSTHybridButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTHybridButton.m; path = ../../FlatButtons/SSTHybridButton.m; sourceTree = "<group>"; };
+		2650DFFF189CC4330085AE08 /* SSTOutlinedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTOutlinedButton.h; path = ../../FlatButtons/SSTOutlinedButton.h; sourceTree = "<group>"; };
+		2650E000189CC4330085AE08 /* SSTOutlinedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTOutlinedButton.m; path = ../../FlatButtons/SSTOutlinedButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,14 +131,14 @@
 				2634A33D182C24AE00CE203F /* Main.storyboard */,
 				2634A375182C291600CE203F /* SSTFlatButtonViewController.h */,
 				2634A376182C291600CE203F /* SSTFlatButtonViewController.m */,
-				2634A372182C259A00CE203F /* SSTBaseButton.h */,
-				2634A373182C259A00CE203F /* SSTBaseButton.m */,
-				2634A369182C258700CE203F /* SSTFilledButton.h */,
-				2634A36A182C258700CE203F /* SSTFilledButton.m */,
-				2634A36B182C258700CE203F /* SSTOutlinedButton.h */,
-				2634A36C182C258700CE203F /* SSTOutlinedButton.m */,
-				2634A36D182C258700CE203F /* SSTHybridButton.h */,
-				2634A36E182C258700CE203F /* SSTHybridButton.m */,
+				2650DFF9189CC4330085AE08 /* SSTBaseButton.h */,
+				2650DFFA189CC4330085AE08 /* SSTBaseButton.m */,
+				2650DFFB189CC4330085AE08 /* SSTFilledButton.h */,
+				2650DFFC189CC4330085AE08 /* SSTFilledButton.m */,
+				2650DFFD189CC4330085AE08 /* SSTHybridButton.h */,
+				2650DFFE189CC4330085AE08 /* SSTHybridButton.m */,
+				2650DFFF189CC4330085AE08 /* SSTOutlinedButton.h */,
+				2650E000189CC4330085AE08 /* SSTOutlinedButton.m */,
 			);
 			path = FlatButtons;
 			sourceTree = "<group>";
@@ -273,13 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2634A36F182C258700CE203F /* SSTFilledButton.m in Sources */,
+				2650E003189CC4330085AE08 /* SSTHybridButton.m in Sources */,
 				2634A377182C291600CE203F /* SSTFlatButtonViewController.m in Sources */,
-				2634A370182C258700CE203F /* SSTOutlinedButton.m in Sources */,
+				2650E004189CC4330085AE08 /* SSTOutlinedButton.m in Sources */,
 				2634A338182C24AE00CE203F /* main.m in Sources */,
-				2634A374182C259A00CE203F /* SSTBaseButton.m in Sources */,
 				2634A33C182C24AE00CE203F /* SSTAppDelegate.m in Sources */,
-				2634A371182C258700CE203F /* SSTHybridButton.m in Sources */,
+				2650E001189CC4330085AE08 /* SSTBaseButton.m in Sources */,
+				2650E002189CC4330085AE08 /* SSTFilledButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +496,7 @@
 				2634A35C182C24AE00CE203F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2634A35D182C24AE00CE203F /* Build configuration list for PBXNativeTarget "FlatButtonsTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				2634A35F182C24AE00CE203F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
