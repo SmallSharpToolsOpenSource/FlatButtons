@@ -15,6 +15,18 @@ screenshot below shows how these buttons appear in iOS 6 and 7.
 
 The files to use are in the `FlatButtons` folder with a sample project in the `Example` folder.
 
+## CocoaPods
+
+CircleButtons is available through [CocoaPods](http://cocoapods.org), to install
+it simply add the following line to your Podfile:
+
+    pod "FlatButtons"
+
+or
+
+    platform :ios, "7.0"
+    pod 'FlatButtons', :git => 'https://github.com/brennanMKE/FlatButtons.git', :tag => '0.0.1'
+
 ## Screenshot
 
 <img src="https://raw.github.com/brennanMKE/FlatButtons/master/FlatButtons.png" width="850" />
