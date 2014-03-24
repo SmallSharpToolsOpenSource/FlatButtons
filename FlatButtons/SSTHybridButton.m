@@ -23,7 +23,7 @@
 @implementation SSTHybridButton
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
-    if ((self = [super initWithCoder:aDecoder])) {
+    if (self = [super initWithCoder:aDecoder]) {
         self.originalTitleColor = self.titleLabel.textColor;
         self.originalBackgroundColor = self.backgroundColor;
         self.backgroundColor = [UIColor clearColor];

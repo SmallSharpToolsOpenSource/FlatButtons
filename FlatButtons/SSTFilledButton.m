@@ -26,7 +26,7 @@
 @implementation SSTFilledButton
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
-    if ((self = [super initWithCoder:aDecoder])) {
+    if (self = [super initWithCoder:aDecoder]) {
         self.originalBackgroundColor = self.backgroundColor;
         self.backgroundColor = self.tintColor;
         

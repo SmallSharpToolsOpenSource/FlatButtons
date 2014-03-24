@@ -25,6 +25,7 @@
 		2650E002189CC4330085AE08 /* SSTFilledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650DFFC189CC4330085AE08 /* SSTFilledButton.m */; };
 		2650E003189CC4330085AE08 /* SSTHybridButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650DFFE189CC4330085AE08 /* SSTHybridButton.m */; };
 		2650E004189CC4330085AE08 /* SSTOutlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650E000189CC4330085AE08 /* SSTOutlinedButton.m */; };
+		2686530E18DFCDB700053A42 /* SSTInvertedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2686530D18DFCDB700053A42 /* SSTInvertedButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		2650DFFE189CC4330085AE08 /* SSTHybridButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTHybridButton.m; path = ../../FlatButtons/SSTHybridButton.m; sourceTree = "<group>"; };
 		2650DFFF189CC4330085AE08 /* SSTOutlinedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTOutlinedButton.h; path = ../../FlatButtons/SSTOutlinedButton.h; sourceTree = "<group>"; };
 		2650E000189CC4330085AE08 /* SSTOutlinedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTOutlinedButton.m; path = ../../FlatButtons/SSTOutlinedButton.m; sourceTree = "<group>"; };
+		2686530C18DFCDB700053A42 /* SSTInvertedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTInvertedButton.h; sourceTree = "<group>"; };
+		2686530D18DFCDB700053A42 /* SSTInvertedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTInvertedButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				2650DFFE189CC4330085AE08 /* SSTHybridButton.m */,
 				2650DFFF189CC4330085AE08 /* SSTOutlinedButton.h */,
 				2650E000189CC4330085AE08 /* SSTOutlinedButton.m */,
+				2686530C18DFCDB700053A42 /* SSTInvertedButton.h */,
+				2686530D18DFCDB700053A42 /* SSTInvertedButton.m */,
 			);
 			path = FlatButtons;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				2650E004189CC4330085AE08 /* SSTOutlinedButton.m in Sources */,
 				2634A338182C24AE00CE203F /* main.m in Sources */,
 				2634A33C182C24AE00CE203F /* SSTAppDelegate.m in Sources */,
+				2686530E18DFCDB700053A42 /* SSTInvertedButton.m in Sources */,
 				2650E001189CC4330085AE08 /* SSTBaseButton.m in Sources */,
 				2650E002189CC4330085AE08 /* SSTFilledButton.m in Sources */,
 			);
