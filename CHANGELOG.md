@@ -8,3 +8,7 @@ Podspec release.
 
 Added inverted button.
 
+## 0.0.3
+
+Move files to correct folder.
+

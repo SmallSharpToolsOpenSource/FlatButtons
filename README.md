@@ -25,7 +25,7 @@ it simply add the following line to your Podfile:
 or
 
     platform :ios, "7.0"
-    pod 'FlatButtons', :git => 'https://github.com/brennanMKE/FlatButtons.git', :tag => '0.0.2'
+    pod 'FlatButtons', :git => 'https://github.com/brennanMKE/FlatButtons.git', :tag => '0.0.3'
 
 ## Screenshot
 
