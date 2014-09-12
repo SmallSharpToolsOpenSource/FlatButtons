@@ -12,3 +12,7 @@ Added inverted button.
 
 Move files to correct folder.
 
+## 1.0.0
+
+Updated target to 7.0.
+
