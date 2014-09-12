@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FlatButtons"
-  s.version      = "0.0.3"
+  s.version      = "1.0.0"
   s.summary      = "The button classes can be used with a Storyboard by setting the color of the text and the background 
 to color the styles."
 
@@ -21,8 +21,8 @@ provided screenshot shows how these buttons appear in iOS 6 and 7.
   s.author             = { "Brennan Stehling" => "brennan@smallsharptools.com" }
   s.social_media_url = "http://twitter.com/smallsharptools"
 
-  s.platform     = :ios, '6.0'
-  s.source       = { :git => "https://github.com/brennanMKE/FlatButtons.git", :tag => "0.0.3" }
+  s.platform     = :ios, '7.0'
+  s.source       = { :git => "https://github.com/brennanMKE/FlatButtons.git", :tag => "1.0.0" }
   s.source_files  = 'FlatButtons', 'FlatButtons/**/*.{h,m}'
   s.requires_arc = true
 
