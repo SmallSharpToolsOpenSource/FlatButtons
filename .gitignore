@@ -1,5 +1,7 @@
 # Created by http://www.gitignore.io
 
+*.swp
+
 ### Objective-C ###
 # OS X
 .DS_Store
