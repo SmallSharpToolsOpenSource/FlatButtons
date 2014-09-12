@@ -17,7 +17,7 @@ The files to use are in the `FlatButtons` folder with a sample project in the `E
 
 ## CocoaPods
 
-CircleButtons is available through [CocoaPods](http://cocoapods.org), to install
+FlatButtons is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
     pod "FlatButtons"
@@ -39,5 +39,4 @@ Flat Buttons is available under the Apache 2.0 license. See the LICENSE file for
 
 Brennan Stehling  
 [SmallSharpTools](http://www.smallsharptools.com/)  
-[@smallsharptools](https://alpha.app.net/smallsharptools) (App.net)  
 [@smallsharptools](https://twitter.com/smallsharptools) (Twitter)  
